@@ -5,7 +5,7 @@ const botaoFechar = document.getElementById('botao-fechar');
 function mostrarPalhaco() {
     const palhaco = document.createElement('img');
     palhaco.id = 'palhaco';
-    palhaco.src = 'benicio.PNG'; // Ensure 'benicio.PNG' is in the same directory as your HTML/CSS/JS or provide the correct path.
+    palhaco.src = 'benicio.PNG'; 
     palhaco.alt = 'Palhaço';
     palhaco.style.width = '120px';
     caixa.appendChild(palhaco);
