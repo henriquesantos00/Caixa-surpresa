@@ -32,7 +32,6 @@ body {
     transition: transform 0.5s;
 }
 
-/* Estado da caixa quando a classe 'aberta' é adicionada via JavaScript */
 #caixa.aberta #tampa {
     transform: rotateX(70deg);
 }
@@ -41,12 +40,11 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    /* Inicia escondido abaixo da caixa (100% para baixo) */
+    
     transform: translateX(-50%) translateY(100%);
     transition: transform 0.7s ease-out;
 }
 
-/* Estado do palhaco quando a caixa está 'aberta' */
 #caixa.aberta #palhaco {
     /* Move o palhaço para cima (80% acima do centro, ajustável) */
     transform: translateX(-50%) translateY(-80%);
